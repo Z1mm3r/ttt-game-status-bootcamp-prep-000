@@ -30,5 +30,8 @@ def won?(board)
 end
 
 def full?(board)
-  
+  counter = 0
+  board.all do |element|
+    position_taken(board,counter)
+  end
 end
