@@ -20,9 +20,9 @@ def won?(board)
   
   WIN_COMBINATIONS.detect do |element|
     if (board[element[0]] == "X" && board[element[1]] == "X" && board[element[2]] == "X")
-      return true
+      true
     elsif(board[element[0]] == "O" && board[element[1]] == "O" && board[element[2]] == "O")
-      return true
+      true
     else
       return false
     end
