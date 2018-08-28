@@ -19,5 +19,6 @@ WIN_COMBINATIONS = [
 def won(board)
   
   WIN_COMBINATIONS.select |element|
+end
   
 end
