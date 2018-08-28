@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
   [6,4,2]
   ]
 
-def won(board)
+def won?(board)
   
   WIN_COMBINATIONS.detect do |element|
     if (board[element[0]] == "X" && board[element[1]] == "X" && board[element[2]] == "X")
