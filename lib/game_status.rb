@@ -60,5 +60,5 @@ def over?(board)
 end
 
 def winner?(board)
-  if(won(board))
+  if(check = won(board))
 end
