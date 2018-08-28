@@ -24,7 +24,7 @@ def won?(board)
     elsif(board[element[0]] == "O" && board[element[1]] == "O" && board[element[2]] == "O")
       true
     else
-      return false
+      false
     end
     
   end
