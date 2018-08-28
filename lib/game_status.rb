@@ -32,7 +32,7 @@ end
 def full?(board)
   counter = 0
   board.all? do |element|
-    position_taken(board,counter)
+    position_taken?(board,counter)
     counter += 1
   end
 end
