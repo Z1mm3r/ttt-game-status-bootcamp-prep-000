@@ -19,8 +19,7 @@ WIN_COMBINATIONS = [
 def won(board)
   
   WIN_COMBINATIONS.select do |element|
-    element.each do |index|
-    end
+    if (board[element[0] == "X" &&)
   end
   
 end
