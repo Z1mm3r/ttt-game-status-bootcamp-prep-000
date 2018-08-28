@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
 
 def won(board)
   
-  WIN_COMBINATIONS.select |element|
+  WIN_COMBINATIONS.select do |element|
 end
   
 end
