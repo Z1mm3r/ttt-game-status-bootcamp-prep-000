@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
 def won(board)
   
   WIN_COMBINATIONS.select do |element|
-    if (board[element[0] == "X" &&)
+    if (board[element[0]] == "X" && board[element[1]] == "X" && board[element[2]] == "X")
   end
   
 end
