@@ -36,3 +36,7 @@ def full?(board)
     position_taken?(board,counter)
   end
 end
+
+def draw?(board)
+  
+end
